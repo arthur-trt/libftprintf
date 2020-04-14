@@ -6,7 +6,7 @@
 #    By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/09 12:00:57 by atrouill          #+#    #+#              #
-#    Updated: 2020/04/06 18:07:33 by atrouill         ###   ########.fr        #
+#    Updated: 2020/04/14 14:03:48 by atrouill         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@
 #            CONFIG VAR
 # ================================
 
-NAME			= libft.a
+NAME			= libftprintf.a
 CC				= gcc
 
 # Compiler flags
