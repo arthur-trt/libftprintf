@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   constants.h                                        :+:      :+:    :+:   */
+/*   ft_printf_constants.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/11 19:43:56 by atrouill          #+#    #+#             */
-/*   Updated: 2020/03/17 07:48:47 by atrouill         ###   ########.fr       */
+/*   Updated: 2020/04/25 15:33:08 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CONSTANTS_H
-# define CONSTANTS_H
+#ifndef FT_PRINTF_CONSTANTS_H
+# define FT_PRINTF_CONSTANTS_H
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE	2

@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   functions.h                                        :+:      :+:    :+:   */
+/*   ft_printf_functions.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/11 19:45:53 by atrouill          #+#    #+#             */
-/*   Updated: 2020/03/14 19:36:16 by atrouill         ###   ########.fr       */
+/*   Updated: 2020/04/25 15:33:11 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FUNCTIONS_H
-# define FUNCTIONS_H
+#ifndef FT_PRINTF_FUNCTIONS_H
+# define FT_PRINTF_FUNCTIONS_H
 
 /*
 ** BUFFER
