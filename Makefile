@@ -6,7 +6,7 @@
 #    By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/09 12:00:57 by atrouill          #+#    #+#              #
-#    Updated: 2020/04/14 14:03:48 by atrouill         ###   ########.fr        #
+#    Updated: 2020/05/16 20:10:23 by atrouill         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,6 +47,7 @@ SRCS			= \
 				ft_putendl_fd 	ft_toupper		\
 				ft_strrev		ft_strjoin_free \
 				ft_realloc						\
+				ft_strjoin_gnl	get_next_line	\
 				buffer				\
 				conv_c				\
 				conv_d				\
