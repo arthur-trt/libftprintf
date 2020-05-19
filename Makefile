@@ -6,7 +6,7 @@
 #    By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/09 12:00:57 by atrouill          #+#    #+#              #
-#    Updated: 2020/05/16 20:10:23 by atrouill         ###   ########.fr        #
+#    Updated: 2020/05/19 13:03:32 by atrouill         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ NAME			= libftprintf.a
 CC				= gcc
 
 # Compiler flags
-CFLAGS			+= -Wall -Werror -Wextra
+CFLAGS			+= -Wall -Werror -Wextra 
 CPPFLAGS		+= -Iincludes/
 MAKEFLAGS		+= --no-print-directory
 

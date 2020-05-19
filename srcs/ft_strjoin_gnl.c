@@ -6,11 +6,11 @@
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/16 20:06:09 by atrouill          #+#    #+#             */
-/*   Updated: 2020/05/16 20:06:32 by atrouill         ###   ########.fr       */
+/*   Updated: 2020/05/19 13:02:55 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "../includes/libftprintf.h"
+#include "../includes/libftprintf.h"
 
 char		*ft_strjoin_gnl(char **s1, char *s2)
 {
@@ -35,7 +35,7 @@ char		*ft_strjoin_gnl(char **s1, char *s2)
 		res[j++] = s2[i];
 		i++;
 	}
-	free(*s1);
+	*s1 ? free(*s1) : NULL;
 	res[j] = '\0';
 	*s1 = res;
 	return (res);
