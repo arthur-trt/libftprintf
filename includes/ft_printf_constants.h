@@ -6,7 +6,7 @@
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/11 19:43:56 by atrouill          #+#    #+#             */
-/*   Updated: 2020/04/25 15:33:08 by atrouill         ###   ########.fr       */
+/*   Updated: 2020/06/11 16:33:24 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define FT_PRINTF_CONSTANTS_H
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE	2
+#  define BUFFER_SIZE	4096
 # endif
 
 # define FLAG_0_PADDED	1

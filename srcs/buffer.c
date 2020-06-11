@@ -6,7 +6,7 @@
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/11 19:52:04 by atrouill          #+#    #+#             */
-/*   Updated: 2020/04/06 18:14:22 by atrouill         ###   ########.fr       */
+/*   Updated: 2020/06/11 16:03:55 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,8 +47,7 @@ int			add_char_buffer(t_buffer **buff, char c)
 	if ((*buff)->data_len >= (*buff)->len)
 	{
 		(*buff)->len += 50;
-		if (!((*buff)->buffer = ft_realloc((*buff)->buffer, (*buff)->data_len,
-			(*buff)->len)))
+		if (!((*buff)->buffer = ft_realloc((*buff)->buffer,	(*buff)->len)))
 			return (0);
 	}
 	(*buff)->buffer[(*buff)->data_len] = c;
@@ -72,8 +71,7 @@ int			add_char_last_pos_buffer(t_buffer **buff, char c)
 	if ((*buff)->data_len >= (*buff)->len)
 	{
 		(*buff)->len += 50;
-		if (!((*buff)->buffer = ft_realloc((*buff)->buffer, (*buff)->data_len,
-			(*buff)->len)))
+		if (!((*buff)->buffer = ft_realloc((*buff)->buffer, (*buff)->len)))
 			return (0);
 	}
 	if (!(ft_memmove((*buff)->buffer + (*buff)->last_pos + 1,
