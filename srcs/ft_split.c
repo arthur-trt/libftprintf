@@ -6,7 +6,7 @@
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/07 16:50:51 by atrouill          #+#    #+#             */
-/*   Updated: 2020/04/06 18:12:43 by atrouill         ###   ########.fr       */
+/*   Updated: 2021/03/08 15:43:35 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,6 +75,14 @@ static char			**ft_split_helper(char const *s, char c, size_t nb_words)
 	return (splited);
 }
 
+/*
+**	Split a string each time char c is encouter
+**
+**	@param s String to split
+**	@param c Char who trigger the split
+**
+**	@return An array of splitted string 
+*/
 char				**ft_split(char const *s, char c)
 {
 	size_t	nb_words;
