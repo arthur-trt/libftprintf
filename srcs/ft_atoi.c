@@ -6,7 +6,7 @@
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 17:21:12 by atrouill          #+#    #+#             */
-/*   Updated: 2020/04/06 18:12:56 by atrouill         ###   ########.fr       */
+/*   Updated: 2021/03/08 11:08:25 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,13 @@ static char	*ft_clean_str(const char *str)
 	return ((char *)(str + i));
 }
 
+/*
+**	Convert a string to an int respresentation
+**
+**	@param str String to convert
+**
+**	@return int representation of the string
+*/
 int			ft_atoi(const char *str)
 {
 	int				neg;

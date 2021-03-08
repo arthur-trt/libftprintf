@@ -6,7 +6,7 @@
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/04 14:06:08 by atrouill          #+#    #+#             */
-/*   Updated: 2020/06/11 16:02:31 by atrouill         ###   ########.fr       */
+/*   Updated: 2021/03/08 11:16:57 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdbool.h>
 
 typedef struct		s_list
 {
@@ -35,13 +36,13 @@ void				*ft_realloc(void *ptr, size_t size);
 
 void				ft_bzero(void *s, size_t n);
 
-int					ft_isalpha(int c);
-int					ft_isdigit(int c);
-int					ft_isalnum(int c);
-int					ft_isascii(int c);
-int					ft_isprint(int c);
-int					ft_toupper(int c);
-int					ft_tolower(int c);
+bool				ft_isalpha(int c);
+bool				ft_isdigit(int c);
+bool				ft_isalnum(int c);
+bool				ft_isascii(int c);
+bool				ft_isprint(int c);
+bool				ft_toupper(int c);
+bool				ft_tolower(int c);
 
 size_t				ft_strlen(const char *s);
 size_t				ft_strlcpy(char *dst, const char *src, size_t dstsize);
