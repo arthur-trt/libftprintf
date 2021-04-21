@@ -6,23 +6,20 @@
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/10 15:45:55 by atrouill          #+#    #+#             */
-/*   Updated: 2020/06/11 16:00:52 by atrouill         ###   ########.fr       */
+/*   Updated: 2021/04/21 11:53:55 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-//void	*ft_realloc(void *ptr, size_t old_size, size_t size)
-//{
-//	void	*ret;
-
-//	if (!(ret = malloc(size)))
-//		return (NULL);
-//	ft_memcpy(ret, ptr, old_size);
-//	free(ptr);
-//	return (ret);
-//}
-
+/*
+**	Changes the size of the memory block pointed to by ptr to size bytes.
+**
+**	@param ptr Memory block
+**	@param size New size
+**
+**	@return Pointer to the newly allocated memory
+*/
 void	*ft_realloc(void *ptr, size_t size)
 {
 	char	*newptr;

@@ -6,7 +6,7 @@
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/04 14:06:08 by atrouill          #+#    #+#             */
-/*   Updated: 2021/03/08 11:16:57 by atrouill         ###   ########.fr       */
+/*   Updated: 2021/04/21 12:03:05 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,8 +41,8 @@ bool				ft_isdigit(int c);
 bool				ft_isalnum(int c);
 bool				ft_isascii(int c);
 bool				ft_isprint(int c);
-bool				ft_toupper(int c);
-bool				ft_tolower(int c);
+int					ft_toupper(int c);
+int					ft_tolower(int c);
 
 size_t				ft_strlen(const char *s);
 size_t				ft_strlcpy(char *dst, const char *src, size_t dstsize);

@@ -6,12 +6,20 @@
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/07 14:52:29 by atrouill          #+#    #+#             */
-/*   Updated: 2020/04/06 18:12:44 by atrouill         ###   ########.fr       */
+/*   Updated: 2021/04/21 11:58:06 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libftprintf.h"
 
+/*
+**	Concatenates two strings and frees the original strings
+**
+**	@param s1 First string
+**	@param s2 Seconde string
+**
+**	@param Pointer to the new string
+*/
 char	*ft_strjoin_free(char *s1, char *s2)
 {
 	char	*res;

@@ -1,33 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
+/*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/11/08 18:29:50 by atrouill          #+#    #+#             */
-/*   Updated: 2021/04/21 11:52:00 by atrouill         ###   ########.fr       */
+/*   Created: 2021/04/11 11:28:53 by atrouill          #+#    #+#             */
+/*   Updated: 2021/04/21 12:00:22 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libftprintf.h"
 
 /*
-**	Write a number in the desired fd
+**	 Compares the two strings s1 and s2
 **
-**	@param n Number to be written
-**	@param fd FD in which to write
+**	@param s1 First string
+**	@param s2 Second string
+**
+**	@return Less than, equal to, or greater than zero if the first n bytes
+**	of s1 is found
 */
-void	ft_putnbr_fd(int n, int fd)
+int					ft_strcmp(const char *s1, const char *s2)
 {
-	if (n == -2147483648)
-		return (ft_putstr_fd("-2147483648", fd));
-	if (n < 0)
-	{
-		n = -1 * n;
-		ft_putchar_fd('-', fd);
+	unsigned int	i;
+	unsigned int	res;
+
+	res = 0;
+	i = 0;
+	while ((s1[i] != '\0' || s2[i] != '\0')) 									{
+		res = (unsigned char)s1[i] - (unsigned char)s2[i]
+
+
+		;
+		if (res != 0)
+			return (res);
+		i++;
 	}
-	if (n / 10 > 0)
-		ft_putnbr_fd(n / 10, fd);
-	ft_putchar_fd((n % 10) + '0', fd);
+	return (0);
 }

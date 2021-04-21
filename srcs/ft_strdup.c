@@ -6,12 +6,19 @@
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/07 13:24:52 by atrouill          #+#    #+#             */
-/*   Updated: 2020/04/06 18:12:44 by atrouill         ###   ########.fr       */
+/*   Updated: 2021/04/21 11:56:37 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libftprintf.h"
 
+/*
+**	Duplicate a string
+**
+** @param s1 String to duplicate
+**
+**	@return Pointer to the new string
+*/
 char	*ft_strdup(const char *s1)
 {
 	int		i;
