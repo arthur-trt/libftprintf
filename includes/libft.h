@@ -6,7 +6,7 @@
 /*   By: atrouill <atrouill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/04 14:06:08 by atrouill          #+#    #+#             */
-/*   Updated: 2021/04/21 12:11:40 by atrouill         ###   ########.fr       */
+/*   Updated: 2021/07/23 11:56:07 by atrouill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 
 typedef struct		s_list
 {
-	void			*content;
+	char			*content;
 	struct s_list	*next;
 }					t_list;
 
